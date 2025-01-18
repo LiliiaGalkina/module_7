@@ -1,0 +1,12 @@
+const users = [
+  {name: "Igor", age: 25},
+  {name: "Anna", age: 16},
+  {name: "Olga", age: 35},
+  {name: "Ivan", age: 30},
+  {name: "Pavel", age: 14}
+];
+
+const usersOld = users.filter(elem => elem.age >= 18);
+
+const userNames = users.map(elem => elem.name);
+
