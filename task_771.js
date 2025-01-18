@@ -2,7 +2,7 @@
 
 const person = {
   name: "Ivav",
-  age: "Ivanov",
+  age: 35
 };
 
 function printInfo() {
